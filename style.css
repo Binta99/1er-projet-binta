@@ -19,7 +19,12 @@ ul li {
   align-items: center;
 }
 
-form label {
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(177, 152, 179);
+  justify-content: center;
+  align-items: center;
 }
 form input {
   margin: 10px;
@@ -53,12 +58,14 @@ form input {
 }
 .buton {
   display: flex;
+  align-items: center;
 }
 
 .buton button {
   width: 100px;
   height: 30px;
   margin: 20px;
+  color: white;
 }
 .valider button {
   background-color: green;
